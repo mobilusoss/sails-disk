@@ -29,11 +29,11 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "^4.17.15",
-    "waterline-criteria": "~1.0.1",
+    "waterline-criteria": "git+https://github.com/mobilusoss/waterline-criteria.git#master",
     "waterline-errors": "~0.10.1",
     "fs-extra": "0.30.0",
     "async": "~0.2.9",
-    "waterline-cursor": "~0.0.6"
+    "waterline-cursor": "git+https://github.com/mobilusoss/waterline-cursor.git#master"
   },
   "devDependencies": {
     "mocha": "~2.5.3",
