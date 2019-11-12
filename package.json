@@ -1,6 +1,6 @@
 {
   "name": "sails-disk",
-  "version": "0.10.10",
+  "version": "0.11.0",
   "description": "Persistent local-disk adapter for Sails.js / Waterline",
   "main": "lib/adapter.js",
   "scripts": {
@@ -29,11 +29,11 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "^4.17.15",
-    "waterline-criteria": "git+https://github.com/mobilusoss/waterline-criteria.git#master",
+    "waterline-criteria": "git+https://github.com/mobilusoss/waterline-criteria.git#v1.1.0",
     "waterline-errors": "~0.10.1",
     "fs-extra": "0.30.0",
     "async": "~3.1.0",
-    "waterline-cursor": "git+https://github.com/mobilusoss/waterline-cursor.git#master"
+    "waterline-cursor": "git+https://github.com/mobilusoss/waterline-cursor.git#v0.1.0"
   },
   "devDependencies": {
     "mocha": "~2.5.3",
